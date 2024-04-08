@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: siddharth67/php-random-shapes:v1
+  repository: siddharth67/solar-system:v3
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -11,14 +11,14 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
   targetPort: 80
-  nodePort: 30336
-  
+  nodePort: 30330
+
 color:
-   circle: black
-   oval: black
-   triangle: black
-   rectangle: black
-   square: black    
+  circle: black
+  oval: black
+  triangle: black
+  rectangle: black
+  square: black
