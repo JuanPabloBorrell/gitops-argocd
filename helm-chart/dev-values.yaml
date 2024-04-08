@@ -17,8 +17,8 @@ service:
   nodePort: 30331
 
 color:
-  circle: black
-  oval: black
-  triangle: black
-  rectangle: black
-  square: black
+  circle: green
+  oval: green
+  triangle: green
+  rectangle: green
+  square: green
